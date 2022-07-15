@@ -21,9 +21,9 @@
     </head>
 
     <body class="">
-        <div class="container mx-auto px-2 md:px-4 lg:px-8 text-slate-900 dark:text-white bg-white dark:bg-slate-700">
+        <div class="container px-2 mx-auto bg-white md:px-4 lg:px-8 text-slate-900 dark:text-white dark:bg-slate-700">
             <!-- dark mode -->
-            <div class="shadow-xl flex w-full pb-8">
+            <div class="flex w-full pb-8 shadow-xl">
                 <div class="flex justify-between w-full px-2">
                     <div class="flex flex-col justify-between w-[24rem]">
                         <div class="pt-8">
@@ -36,7 +36,7 @@
 
                     <div class="relative flex justify-center">
                         <div class="absolute bottom-0 mx-auto">
-                            <h3 class="text-orange-400 text-center font-bold text-lg xs:text-2xl md:text-4xl lg:text-5xl">
+                            <h3 class="text-lg font-bold text-center text-orange-400 xs:text-2xl md:text-4xl lg:text-5xl">
                                 OUR YAGYA
                             </h3>
                             <h1 class="uppercase text-center text-[1.6rem] xs:text-4xl md:text-6xl lg:text-7xl text-orange-500 font-bold">
@@ -46,8 +46,9 @@
                         <img class="w-[29rem] lg:w-auto" src="https://ouryagya.netlify.app/img/logo_big.png" alt="" />
                     </div>
 
+                    <!-- some changes -->
                     <div class="flex flex-col justify-end w-[24rem]">
-                        <div class="border-4 text-red-600 font-semibold text-xl ml-auto border-red-600 p-2 my-1 w-52 rounded-full">
+                        <div class="p-2 my-1 ml-auto text-xl font-semibold text-red-600 border-4 border-red-600 rounded-full w-52">
                             <div>
                                 <select class="uppercase duration-100 outline-none cursor-pointer">
                                     <option>English </option>
@@ -58,17 +59,17 @@
                             <img src="../img/icons/Language.png" alt="" />
                         </div>
 
-                        <div class="border-4 text-red-600 font-semibold text-xl ml-auto border-red-600 p-2 my-1 w-52 rounded-full flex items-center justify-between">
+                        <div class="flex items-center justify-between p-2 my-1 ml-auto text-xl font-semibold text-red-600 border-4 border-red-600 rounded-full w-52">
                             <div>login</div>
                             <img src="https://ouryagya.netlify.app/img/icons/LoginRed.png" alt="" />
                         </div>
 
-                        <div class="border-4 text-red-600 font-semibold text-xl ml-auto border-red-600 p-2 my-1 w-52 rounded-full flex items-center justify-between">
+                        <div class="flex items-center justify-between p-2 my-1 ml-auto text-xl font-semibold text-red-600 border-4 border-red-600 rounded-full w-52">
                             <div>MADE FOR ME</div>
                             <img src="https://ouryagya.netlify.app/img/icons/LoginRed.png" alt="" />
                         </div>
 
-                        <div class="border-4 py-2 leading-none text-red-600 font-semibold text-xl ml-auto border-red-600 p-2 my-1 w-52 rounded-full flex items-center justify-between">
+                        <div class="flex items-center justify-between p-2 py-2 my-1 ml-auto text-xl font-semibold leading-none text-red-600 border-4 border-red-600 rounded-full w-52">
                             <div>SOMETHING SPECIAL</div>
                             <img src="https://ouryagya.netlify.app/img/icons/LoginRed.png" alt="" />
                         </div>
@@ -76,30 +77,30 @@
                 </div>
             </div>
 
-            <div class="inline-block w-10 relative align-middle select-none transistion duration-200 ease-in mr-0 md:mr-3 lg:mr-5 cursor-pointer">
-                <input type="checkbox" id="toggle" name="toggle" class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer" />
-                <label for="toggle" class="toggle-lable block overflow-hidden h-6 rounded-full bg-gray-800 cursor-pointer"> </label>
+            <div class="relative inline-block w-10 mr-0 align-middle duration-200 ease-in cursor-pointer select-none transistion md:mr-3 lg:mr-5">
+                <input type="checkbox" id="toggle" name="toggle" class="absolute block w-6 h-6 bg-white border-4 rounded-full appearance-none cursor-pointer toggle-checkbox" />
+                <label for="toggle" class="block h-6 overflow-hidden bg-gray-800 rounded-full cursor-pointer toggle-lable"> </label>
             </div>
             <!-- grid -->
-            <div class="grid grid-cols-full md:grid-cols-2 gap-1 lg:gap-4 text-center text-2xl my-4 lg:my-8 mx-auto">
-                <div class="md:col-span-full md:row-span-2 p-4 lg:p-10 border border-blue-300 text-xl md:text-5xl">
+            <div class="grid gap-1 mx-auto my-4 text-2xl text-center grid-cols-full md:grid-cols-2 lg:gap-4 lg:my-8">
+                <div class="p-4 text-xl border border-blue-300 md:col-span-full md:row-span-2 lg:p-10 md:text-5xl">
                     International
                 </div>
-                <div class="p-10 row-span-3 col-span-1 border border-blue-300">
+                <div class="col-span-1 row-span-3 p-10 border border-blue-300">
                     Madhuban News
                     <br />
                     <h1 class="text-2xl text-left">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error distinctio magnam totam impedit ratione, eos harum odio aliquam sed odit nobis quos nisi dolore at? Mollitia doloribus officiis corrupti.
                     </h1>
                 </div>
-                <div class="p-10 row-span-2 border border-blue-300">special focus news</div>
+                <div class="row-span-2 p-10 border border-blue-300">special focus news</div>
                 <div class="p-10 border border-blue-300">Header 4</div>
                 <div class="p-10 border border-blue-300">Header 5</div>
                 <div class="p-10 border border-blue-300">Header 6</div>
                 <div class="p-10 border border-blue-300">Header 7</div>
                 <div class="p-10 border border-blue-300">Header 8</div>
                 <div class="p-10 border border-blue-300">
-                    <img src="https://images.pexels.com/photos/735987/pexels-photo-735987.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="hover:rotate-180 hover:-scale-75 hover:-skew-y-12 transition duration-1000" />
+                    <img src="https://images.pexels.com/photos/735987/pexels-photo-735987.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="transition duration-1000 hover:rotate-180 hover:-scale-75 hover:-skew-y-12" />
                 </div>
             </div>
         </div>
